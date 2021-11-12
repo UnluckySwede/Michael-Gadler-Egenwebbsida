@@ -1,30 +1,24 @@
 body {
   background-color: azure;
 }
+
 .buttons {
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(92, 92, 92);
-  height: text;
   border-radius: 10px;
-  width: 60%;
 }
 
-.Mainpage {
+.button {
   font-style: times;
   font-size: 36px;
   border-style: none;
+  background-color: rgb(92, 92, 92);
+  border-radius: 10px;
 }
 
-.CarTypes {
-  font-style: times;
+.main-page-button {
   font-size: 36px;
-  border-style: none;
-}
-.Compare {
-  font-style: times;
-  font-size: 36px;
-  border-style: none;
 }
 
 button a:hover {
@@ -38,13 +32,9 @@ button a {
 }
 
 .Signlog {
-  width: 10%;
   display: flex;
-  justify-content: right;
-  margin-left: 80%;
-  width: 15%;
+  align-items: center;
   border-radius: 8px;
-  height: text;
   background-color: rgb(92, 92, 92);
 }
 
@@ -57,4 +47,25 @@ button a {
   font-style: times;
   font-size: 20px;
   border-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-Signlog {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.flex-login {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.flex-loginer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
