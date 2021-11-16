@@ -35,37 +35,50 @@ button a {
   display: flex;
   align-items: center;
   border-radius: 8px;
+  border-style: none;
+  font-style: times;
+  font-size: 20px;
   background-color: rgb(92, 92, 92);
 }
-
-.Login {
-  font-style: times;
-  font-size: 20px;
-  border-style: none;
+.flex-Signlog {
+  display: flex;
+  justify-content: center;
+  width: 20%;
 }
-.SignUp {
-  font-style: times;
-  font-size: 20px;
-  border-style: none;
-}
-
 header {
   display: flex;
   justify-content: space-between;
 }
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
 
-.flex-Signlog {
-  width: 25%;
+.flex-signloginer {
+  background-color: gray;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
+  width: 40%;
+  height: fit-content;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
 }
-.flex-login {
-  width: 20%;
-  display: flex;
-  justify-content: center;
+.signloginer-EPOST {
+  width: 40%;
+  border-color: gray;
+  border-style: solid;
 }
-.flex-loginer {
-  width: 50%;
+input {
   display: flex;
   justify-content: center;
+  background-color: rgb(187, 186, 186);
+  border-style: none;
+  border-radius: 3px;
+  margin-bottom: 20%;
+  margin-top: 15%;
 }
