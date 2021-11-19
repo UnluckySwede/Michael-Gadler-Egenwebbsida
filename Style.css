@@ -82,3 +82,39 @@ input {
   margin-bottom: 20%;
   margin-top: 15%;
 }
+
+.submit {
+  border-style: none;
+  background-color: rgb(60, 134, 194);
+  border-radius: 7px;
+  width: 40%;
+  height: 10%;
+}
+.submit:hover {
+  background-color: cornsilk;
+}
+.flex-ads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 10%;
+  border-radius: 30px;
+  border-color: cyan;
+  border-style: solid;
+}
+
+.ads {
+  width: 40%;
+  height: auto;
+  border-style: solid;
+  border-radius: 25px;
+  margin: 2%;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
